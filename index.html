@@ -80,7 +80,7 @@
 </ul>
 <p>Where the law requires it (for example in the European Economic Area, the United Kingdom and Switzerland), the app first shows Google's consent form and only requests ads if you allow it. You can reset or delete your advertising ID, and opt out of ad personalisation, in your Android settings. Buying Premium removes ads, and watching an optional rewarded ad turns them off for 24 hours.</p>
 <h3>2.3 Station directory and playing a station</h3>
-<p>Station lists, search and station details come from the community directory <strong>radio-browser.info</strong>, and the audio streams directly from each station's own server. Those servers receive your <strong>IP address</strong> and ordinary request details, as any website would. When you start a station, the app also tells radio-browser.info which station was played (their popularity counter). No account or name is sent, because none exists.</p>
+<p>Station lists, search and station details come from the community directory <strong>radio-browser.info</strong>. To answer you, the app sends it what is needed: <strong>the words you search for</strong>, the <strong>country, genre or language</strong> you browse, and the <strong>station you open or play</strong> (including a "station played" counter), together with your <strong>IP address</strong> and ordinary request details, as any website receives. No account or name is sent, because none exists. The audio, and station logos, load directly from each station's own servers, which also see your IP address.</p>
 <h3>2.4 Your country</h3>
 <p>To suggest local stations, the app works out your country <strong>on your device</strong> from the phone's SIM/network country and language settings. This is not sent anywhere. If you turn on <strong>Detect country from IP address</strong> (off by default), the app asks <strong>ipapi.co</strong> for the country of your IP address, so ipapi.co sees your IP address when it does. You can also choose a country yourself.</p>
 <h3>2.5 Purchases</h3>
@@ -101,7 +101,7 @@
 <tr><td>Google (AdMob)</td><td>advertising ID and app-set ID, IP address, ad and app interactions, diagnostics</td><td>showing and measuring ads, analytics, fraud prevention</td></tr>
 <tr><td>Google (Firebase Analytics and Crashlytics)</td><td>anonymous events, crash data, installation ID, <strong>only if you opt in</strong></td><td>analytics and stability</td></tr>
 <tr><td>Google Play</td><td>purchase information</td><td>payments and Premium entitlement</td></tr>
-<tr><td>radio-browser.info</td><td>IP address, a "station played" counter</td><td>station directory</td></tr>
+<tr><td>radio-browser.info</td><td>IP address, search words, country/genre/language filters, a "station played" counter</td><td>station directory and search</td></tr>
 <tr><td>ipapi.co</td><td>IP address, <strong>only if you turn on IP detection</strong></td><td>country detection</td></tr>
 <tr><td>Radio stations</td><td>IP address and request details</td><td>delivering the audio</td></tr>
 </tbody></table></div>
